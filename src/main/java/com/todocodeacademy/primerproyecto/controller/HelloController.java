@@ -20,4 +20,9 @@ public class HelloController {
                 "La edad es: " + edad + "\n" +
                 "La profesion es: " + profesion;
     }
+
+    @GetMapping("/hellow2")
+    public String hellow2(){
+        return "hellow World";
+    }
 }
